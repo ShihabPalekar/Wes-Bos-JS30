@@ -1,0 +1,36 @@
+:root {
+    --base: rgb(81, 255, 0);
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+    background-color: rgb(2, 4, 15);
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: indianred;
+}
+
+input {
+    width: 100px;
+}
